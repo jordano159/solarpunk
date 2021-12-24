@@ -36,6 +36,7 @@
     "postcss-focus-within": "^4.0.0"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "daisyui": "^1.19.0",
     "stimulus": "^3.0.1"
   }
