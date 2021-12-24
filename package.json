@@ -35,6 +35,7 @@
     "postcss-focus-within": "^4.0.0"
   },
   "dependencies": {
+    "daisyui": "^1.19.0",
     "stimulus": "^3.0.1"
   }
 }
