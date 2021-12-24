@@ -10,7 +10,6 @@
 body {
   background: var(--body-background);
   color: var(--body-color);
-  font-family: sans-serif;
 }
 
 h1, nav, footer {
@@ -20,4 +19,12 @@ h1, nav, footer {
 main {
   margin: 4rem auto;
   max-width: 60rem;
+}
+
+*{
+  font-family: 'Rubik', sans-serif;
+}
+
+h1{
+  color: #618539;
 }

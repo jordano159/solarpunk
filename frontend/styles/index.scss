@@ -1,10 +1,11 @@
 $body-background: #fafafa;
 $body-color: #444;
+$green: #618539;
+$orange: #A67F01;
 
 body {
-  background: $body-background;
+  background: $orange;
   color: $body-color;
-  font-family: sans-serif;
 }
 
 h1, nav, footer {
@@ -14,4 +15,7 @@ h1, nav, footer {
 main {
   margin: 4rem auto;
   max-width: 60rem;
+}
+*{
+  font-family: 'BrassiaRegular';
 }

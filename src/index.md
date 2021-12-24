@@ -3,8 +3,8 @@
 
 layout: default
 ---
-<h1 class="text-2xl">סולארפאנק ישראל</h1>
-<h3 class="text-large text-center">תנועה אומנותית-פוליטית לעבד עתיד עם פנים אנושיות ואדמה מאחורי האוזניים</h3>
+<h1 class="text-4xl font-bold">סולארפאנק ישראל</h1>
+<h3 class="text-xl text-center">תנועה אומנותית-פוליטית לעבר עתיד עם פנים אנושיות ואדמה מאחורי האוזניים</h3>
 
 <figure class="my-8">
     <img src="images/solarpunk.webp" alt="solarpunk city">
