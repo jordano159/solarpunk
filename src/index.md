@@ -1,7 +1,10 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 
-layout: home
+layout: default
 ---
 
-Welcome to Bridgetown!
+<figure>
+    <img src="images/solarpunk.webp" alt="solarpunk city">
+    <figcaption dir="ltr">"Solarpunk Art" by Imperial Boy</figcaption>
+</figure>

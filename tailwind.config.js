@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     require('daisyui'),
+    require("tailwindcss-flip"),
   ],
   daisyui: {
     rtl: true,
