@@ -8,7 +8,8 @@ permalink: /manifest/
     <h1 class="text-5xl font-bold mb-4">סולארפאנק</h1>
     <p>אנשים רבים כתבו על סולארפאנק במהלך 10+ השנים האחרונות. בעיקר אחרי 2014.</p>
     <p>הז'אנר עדיין לא מוגדר בבירור.</p>
-    <p>המניפסט הזה הוא עיבוד מחדש של רעיונות על סולארפאנק שנכתבו על ידי אנשים רבים. ניתן למצוא את הרעיונות הללו בעיקר <span class="italic">בסולארפאנק: מדריך עזר</span> שניתן למצוא <a href="https://medium.com/solarpunks/solarpunk-a-reference-guide-8bcf18871965" class="link link-primary">כאן</a> <span class="italic">ובסולארפאנק: הערות לעבר מניפסט</span> מאת אדם פלין, שניתן למצוא <a href="https://hieroglyph.asu.edu/2014/09/solarpunk-notes-toward-a-manifesto/" class="link link-primary">כאן</a>.</p>
+    <p>המניפסט הזה הוא עיבוד מחדש של רעיונות על סולארפאנק שנכתבו על ידי אנשים רבים. ניתן למצוא את הרעיונות הללו בעיקר <span class="italic">בסולארפאנק: מדריך עזר</span> שניתן למצוא <a href="https://medium.com/solarpunks/solarpunk-a-reference-guide-8bcf18871965" class="link link-primary">כאן</a> <span class="italic">ובסולארפאנק: הערות לעבר מניפסט</span> מאת אדם פלין, שניתן למצוא <a href="https://hieroglyph.asu.edu/2014/09/solarpunk-notes-toward-a-manifesto/" class="link link-primary">כאן</a>.<br>
+     ניתן למצוא את המניפסט בשפות אחרות <a href="https://www.re-des.org/un-manifiesto-solarpunk-todos-los-idiomas/" class="link link-primary">כאן</a>.</p>
     <h3 class="text-3xl tedxt-center my-4">מניפסט סולארפאנק</h3>
     <p>סולארפאנק היא תנועה בספרות בדיונית, אמנות, אופנה ואקטיביזם המבקשת לענות ולגלם את השאלה "איך נראית ציוויליזציה בת קיימא, ואיך נוכל להגיע לשם?".</p>
     <p>האסתטיקה של סולארפאנק ממזגת את הפרקטי עם היפה, המעוצב עם הירוק והשופע, הבהיר והצבעוני עם הארצי והמוצק.</p>
