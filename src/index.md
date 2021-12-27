@@ -3,7 +3,7 @@
 
 layout: default
 ---
-<h1 class="text-4xl font-bold">סולארפאנק ישראל</h1>
+<h1 class="text-5xl font-bold">סולארפאנק ישראל</h1>
 <h3 class="text-xl text-center">תנועה אומנותית-פוליטית לעבר עתיד עם פנים אנושיות ואדמה מאחורי האוזניים</h3>
 
 <figure class="my-8">
