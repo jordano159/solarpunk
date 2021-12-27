@@ -17,3 +17,44 @@ layout: default
     דרך שחרור הדמיון שלנו לעבר עתיד אופטימי ומחובר למציאות, אנחנו מתחילים במסע רדיקלי לבניית עולם ששם במרכז צרכים אנושיים וצרכים סביבתיים, עולם שמשבר האקלים צומצם ורוב האנושות הצליחה לשרוד את המעבר למצב הרמוני עם הטבע וכלל האנושות.
 </div>
 <iframe class="w-full" height="500" src="https://www.youtube-nocookie.com/embed/UqJJktxCY9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 class="text-xl mt-8">קישורים</h3>
+<div class="flex flex-wrap md:flex-nowrap mt-2">
+    <div class="card shadow-2xl lg:card-side bg-primary text-primary-content mx-1 mb-2">
+        <div class="card-body">
+            <p>Why Solarpunk gives me hope for the future | Youtube</p> 
+            <div class="justify-end card-actions">
+                <a class="btn btn-primary" href="https://www.youtube.com/watch?v=u3aauiR9M88">            
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">  
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>                        
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div> 
+    <div class="card shadow-2xl lg:card-side bg-primary text-primary-content mx-1 mb-2">
+        <div class="card-body">
+            <p>Solarpunk Is Not About Pretty Aesthetics. It's About the End of Capitalism
+        | Vice</p> 
+            <div class="justify-end card-actions">
+                <a class="btn btn-primary" href="https://www.vice.com/en/article/wx5aym/solarpunk-is-not-about-pretty-aesthetics-its-about-the-end-of-capitalism">            
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">  
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>                        
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div> 
+    <div class="card shadow-2xl lg:card-side bg-primary text-primary-content mx-1 mb-2">
+        <div class="card-body">
+            <p>What is solarpunk and can it help save the planet? | BBC</p> 
+            <div class="justify-end card-actions">
+                <a class="btn btn-primary" href="https://www.bbc.com/news/business-57761297">            
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 ml-2 stroke-current">  
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>                        
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div> 
+</div>
