@@ -60,3 +60,9 @@ h1{
     width: 250%;
   }
 }
+
+.custom-navbar{
+    align-items: center;
+    padding: var(--navbar-padding, .5rem);
+    /* min-height: 4rem; */
+}

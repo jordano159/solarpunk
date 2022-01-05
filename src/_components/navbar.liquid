@@ -1,18 +1,52 @@
-<nav class="navbar mb-2 shadow-lg bg-neutral text-neutral-content sticky top-0 z-50">
-  <div class="flex-1 px-2 mx-2">
-    <a class="text-lg font-bold" href="/">
-            סולארפאנק ישראל
-          </a>
-  </div> 
-  <div class="px-2 mx-2">
-    <div class="flex items-stretch">
-      <a class="btn btn-ghost btn-sm rounded-btn" href="/manifest"> 
-              המניפסט
-      </a> 
-      <a class="btn btn-ghost btn-sm rounded-btn">
-              הצטרפות 
-      </a> 
+<nav class="custom-navbar py-4 shadow-lg bg-neutral text-neutral-content sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between">
+      <div class="flex space-x-7">
+        <div>
+          <a class="mr-4 text-xl font-bold" href="/">סולארפאנק ישראל</a>
+        </div>
+        <!-- Primary Navbar items -->
+        <div class="hidden md:flex items-center space-x-1">
+          
+        </div>
+      </div>
+      <!-- Secondary Navbar items -->
+      <div class="hidden md:flex items-center space-x-3 ">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/manifest">המניפסט</a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="https://chat.whatsapp.com/DM9XqzfTyUkBWCp1qNMgeX">הצטרפות למהפכה</a>
+      </div>
+      <!-- Mobile menu button -->
+      <div class="md:hidden flex items-center">
+        <button class="outline-none mobile-menu-button">
+        <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+          x-show="!showMenu"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      </div>
     </div>
-  </div> 
-  
+  </div>
+  <!-- mobile menu -->
+  <div class="hidden mobile-menu">
+    <ul class="mt-2">
+      <li><a class="btn text-lg" href="/manifest">המניפסט</a></li>
+      <li><a class="btn text-lg" href="https://chat.whatsapp.com/DM9XqzfTyUkBWCp1qNMgeX">הצטרפות למהפכה</a></li>
+    </ul>
+  </div>
 </nav>
+
+<script>
+  const btn = document.querySelector("button.mobile-menu-button");
+  const menu = document.querySelector(".mobile-menu");
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>				
