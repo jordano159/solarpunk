@@ -54,3 +54,9 @@ h1{
 .ltr {
   direction: ltr;
 }
+
+@media (min-width: 1024px){
+.wide-pic{
+    width: 250%;
+  }
+}

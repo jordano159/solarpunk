@@ -3,20 +3,24 @@
 
 layout: default
 ---
-<h1 class="text-5xl font-bold primary-color">סולארפאנק ישראל</h1>
+<h1 class="text-6xl lg:text-7xl font-bold primary-color mb-4">סולארפאנק ישראל</h1>
 <h3 class="text-xl text-center">תנועה אומנותית-פוליטית לעבר עתיד עם פנים אנושיות ואדמה מאחורי האוזניים</h3>
 
-<figure class="my-8">
-    <img src="images/solarpunk.webp" alt="solarpunk city">
-    <figcaption dir="ltr" class="ml-2 text-sm">"Solarpunk Art" by Imperial Boy</figcaption>
-</figure>
-<p class="mx-10 mb-4">
-    יותר מדי זמן הדמיון שלנו הוחזק כשבוי ביד האפוקליפסות של הוליווד ("קל יותר לדמיין את סוף העולם מאת סוף הקפיטליזם"). <br>
-    אנחנו רוצים לשחרר את הדמיון שלנו לחופשי, שישתולל ויבעט, שיהפוך את כל מה שחשבנו על העתיד על הראש, ויעזור לנו לבנות מצפן לכיוון הנכון.
-    </p><p class="mx-10 mb-8">
-    השאלה המכוננת עבורנו היא השאלה הפשוטה: איך נראה עולם בר קיימא, ואיך אפשר להגיע לשם?
-    דרך שחרור הדמיון שלנו לעבר עתיד אופטימי ומחובר למציאות, אנחנו מתחילים במסע רדיקלי לבניית עולם ששם במרכז צרכים אנושיים וצרכים סביבתיים, עולם שמשבר האקלים צומצם ורוב האנושות הצליחה לשרוד את המעבר למצב הרמוני עם הטבע וכלל האנושות.
-</p>
+<div class="lg:flex my-8">
+    <figure class="wide-pic">
+        <img src="images/solarpunk.webp" alt="solarpunk city">
+        <figcaption dir="ltr" class="ml-2 text-sm">"Solarpunk Art" by Imperial Boy</figcaption>
+    </figure>
+    <div>
+        <p class="mx-10 mb-4 lg:mt-0 mt-8">
+            יותר מדי זמן הדמיון שלנו הוחזק כשבוי ביד האפוקליפסות של הוליווד ("קל יותר לדמיין את סוף העולם מאת סוף הקפיטליזם"). <br>
+            אנחנו רוצים לשחרר את הדמיון שלנו לחופשי, שישתולל ויבעט, שיהפוך את כל מה שחשבנו על העתיד על הראש, ויעזור לנו לבנות מצפן לכיוון הנכון.
+            </p><p class="mx-10 lg:mb-0 mb-8">
+            השאלה המכוננת עבורנו היא השאלה הפשוטה: איך נראה עולם בר קיימא, ואיך אפשר להגיע לשם?
+            דרך שחרור הדמיון שלנו לעבר עתיד אופטימי ומחובר למציאות, אנחנו מתחילים במסע רדיקלי לבניית עולם ששם במרכז צרכים אנושיים וצרכים סביבתיים, עולם שמשבר האקלים צומצם ורוב האנושות הצליחה לשרוד את המעבר למצב הרמוני עם הטבע וכלל האנושות.
+        </p>
+    </div>
+</div>
 <iframe class="w-full" height="500" src="https://www.youtube-nocookie.com/embed/UqJJktxCY9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h3 class="text-xl mt-8">עוד מידע</h3>
