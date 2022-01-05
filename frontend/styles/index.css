@@ -66,3 +66,6 @@ h1{
     padding: var(--navbar-padding, .5rem);
     /* min-height: 4rem; */
 }
+li{
+    margin-top: 5px;
+}
