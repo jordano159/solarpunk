@@ -7,9 +7,31 @@
   --body-color: #444;  
 }
 
+html {
+  height: -webkit-fill-available;
+}
 body {
-  background: var(--body-background);
-  color: var(--body-color);
+  background: #dfffda;
+/* background-image: linear-gradient(to right top, #e1ff00, #c7f70c, #acee18, #92e521, #77db29, #5bd94a, #3bd763, #00d478, #00d69f, #00d6c0, #00d5d9, #00d2e9);  background-image: linear-gradient(to left bottom, #d3ea5b, #bce259, #a6db59, #8fd259, #78ca5a, #63c05e, #4db661, #37ac64, #1f9e68, #048f69, #008167, #007263); */
+  /* color: var(--body-color); */
+  color: #000000;
+}
+
+.primary-color {
+  /* color: #ffffff; */
+  color: #32A63A;
+}
+.primary-color-focus {
+  color: #006b02;
+}
+.secondary-color {
+  color: #cac142;
+}
+.secondary-color-focus {
+  color: #d3ea5b;
+}
+.custom-bg-primary{
+  background-color: #91DF86 !important;
 }
 
 h1, nav, footer {
@@ -27,4 +49,8 @@ main {
 
 h1{
   color: #618539;
+}
+
+.ltr {
+  direction: ltr;
 }

@@ -4,8 +4,8 @@ title: מניפסט
 permalink: /manifest/
 ---
 
-<div class="mx-4">
-    <h1 class="text-5xl font-bold mb-4">סולארפאנק</h1>
+<div class="mx-10">
+    <h1 class="text-5xl font-bold mb-4 primary-color">סולארפאנק</h1>
     <p>אנשים רבים כתבו על סולארפאנק במהלך 10+ השנים האחרונות. בעיקר אחרי 2014.</p>
     <p>הז'אנר עדיין לא מוגדר בבירור.</p>
     <p>המניפסט הזה הוא עיבוד מחדש של רעיונות על סולארפאנק שנכתבו על ידי אנשים רבים. ניתן למצוא את הרעיונות הללו בעיקר <span class="italic">בסולארפאנק: מדריך עזר</span> שניתן למצוא <a href="https://medium.com/solarpunks/solarpunk-a-reference-guide-8bcf18871965" class="link link-primary">כאן</a> <span class="italic">ובסולארפאנק: הערות לעבר מניפסט</span> מאת אדם פלין, שניתן למצוא <a href="https://hieroglyph.asu.edu/2014/09/solarpunk-notes-toward-a-manifesto/" class="link link-primary">כאן</a>.<br>
@@ -121,9 +121,11 @@ permalink: /manifest/
             </li>
         </ol>
     </ol>
-    <p class="my-4 -mr-4 italic">קהילת סולארפאנק</p>
+    <p class="mt-4 mb-8 -mr-4 italic">קהילת סולארפאנק</p>
 
     <a class="text-left" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>
-    <br>
-    <div class="text-left">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></div>
+    <div><a href="http://creativecommons.org/licenses/by-sa/4.0/"></a><br>עבודה זו מורשית במסגרת רישיון בינלאומי <a href="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0</a>.</div>
+    
 </div>
+
+  
