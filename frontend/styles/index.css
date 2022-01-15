@@ -69,3 +69,9 @@ h1{
 li{
     margin-top: 5px;
 }
+
+@media (min-width: 1024px){
+  .w-24r{
+      width: 24rem !important;
+  }
+}
