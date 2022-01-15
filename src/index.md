@@ -4,7 +4,7 @@
 layout: default
 ---
 <h1 class="text-6xl lg:text-7xl font-bold primary-color mb-4">סולארפאנק ישראל</h1>
-<h3 class="text-xl text-center">תנועה אומנותית-פוליטית לעבר עתיד עם פנים אנושיות ואדמה מאחורי האוזניים</h3>
+<h3 class="text-xl text-center">תנועה אומנותית-פוליטית עולמית לעבר עתיד אופטימי של הרמוניה עם הטבע ושאר בני האדם</h3>
 
 <div class="lg:flex my-8">
     <figure class="wide-pic">
