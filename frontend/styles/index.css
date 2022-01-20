@@ -54,11 +54,6 @@ h1{
   direction: ltr;
 }
 
-@media (min-width: 1024px){
-.wide-pic{
-    width: 250%;
-  }
-}
 
 .custom-navbar{
     align-items: center;
@@ -73,4 +68,21 @@ li{
   .w-24r{
       width: 24rem !important;
   }
+  .wide-pic{
+    width: 250%;
+  }
+  .alternating-card:nth-child(even){
+    flex-direction: row-reverse;
+  }
+}
+
+.ext-link{
+  text-decoration: underline;
+}
+.ext-link::before{
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('/images/external-link.svg');
+  background-repeat: no-repeat;
 }
