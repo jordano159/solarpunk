@@ -17,9 +17,13 @@ layout: default
 </div>
 <div class="flex flex-wrap justify-center">
     <div class="w-full lg:w-1/2 md:w-1/2 p-4">
-        <img src="/images/window_to_the_future_1.webp" alt="invitation to the exhibition">
+        <img src="/images/window_front_view.webp" alt="front view">
+        <img src="/images/window_sign.webp" alt="sign" class="mt-8">
     </div>
     <div class="w-full lg:w-1/2 md:w-1/2 p-4">
-        <img src="/images/window_to_the_future_2.webp" alt="invitation to the exhibition">
+        <img src="/images/window_painting.webp" alt="painting">
+        <img src="/images/rita-fei-solarpunk.webp" alt="rita fei solarpunk" class="mt-8">
+    </div>
+    <div class="w-full lg:w-1/2 md:w-1/2 p-4">
     </div>
 </div>
