@@ -74,6 +74,9 @@ li{
   .alternating-card:nth-child(even){
     flex-direction: row-reverse;
   }
+  .window-pic{
+    width: 50%;
+  }
 }
 
 .ext-link{
