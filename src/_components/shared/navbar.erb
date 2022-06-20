@@ -1,11 +1,56 @@
-<header>
-  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
-</header>
-
-<nav>
-  <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
-    <li><a href="<%= relative_url '/about' %>">About</a></li>
-    <li><a href="<%= relative_url '/posts' %>">Posts</a></li>
-  </ul>
+<nav class="custom-navbar py-4 shadow-lg bg-neutral text-neutral-content sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 md:px-0">
+    <div class="flex justify-between">
+      <div class="flex space-x-7">
+        <div>
+          <a class="text-xl font-bold" href="/">סולארפאנק ישראל</a>
+        </div>
+        <!-- Primary Navbar items -->
+        <div class="hidden md:flex items-center space-x-1">
+          
+        </div>
+      </div>
+      <!-- Secondary Navbar items -->
+      <div class="hidden md:flex items-center space-x-3 ">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/what_to_do">מה לעשות עכשיו</a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/manifest">המניפסט</a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/window_to_the_future">חלון אל העתיד</a>
+        <a class="btn btn-primary btn-sm rounded-btn" href="https://linktr.ee/solarpunkisrael">הצטרפות למהפכה</a>
+      </div>
+      <!-- Mobile menu button -->
+      <div class="md:hidden flex items-center">
+        <button class="outline-none mobile-menu-button">
+        <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+          x-show="!showMenu"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      </div>
+    </div>
+  </div>
+  <!-- mobile menu -->
+  <div class="hidden mobile-menu">
+    <ul class="mt-2">
+      <li><a class="btn text-lg" href="/what_to_do">מה לעשות עכשיו</a></li>
+      <li><a class="btn text-lg" href="/manifest">המניפסט</a></li>
+      <li><a class="btn text-lg" href="/window_to_the_future">חלון אל העתיד</a></li>
+      <li><a class="btn btn-primary text-lg" href="https://linktr.ee/solarpunkisrael">הצטרפות למהפכה</a></li>
+    </ul>
+  </div>
 </nav>
+
+<script>
+  const btn = document.querySelector("button.mobile-menu-button");
+  const menu = document.querySelector(".mobile-menu");
+
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>				

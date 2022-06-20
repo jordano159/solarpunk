@@ -8,3 +8,27 @@
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
 <script src="<%= webpack_path :js %>" defer></script>
 <%= live_reload_dev_js %>
+
+<%# <script src="https://cdn.tailwindcss.com"></script> %>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@1.19.0/dist/full.css" rel="stylesheet" type="text/css" />
+<%# <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" /> %>
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/brassia" type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap" rel="stylesheet">
+<script defer data-domain="solarpunk.onrender.com" src="https://plausible.io/js/plausible.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+<!-- Facebook Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ metadata.title | escape }}">
+<meta property="og:description" content="{{ metadata.description }}">
+<meta property="og:image" content="/images/window_painting.webp">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="solarpunkisrael.com">
+<meta name="twitter:title" content="{{ metadata.title | escape }}">
+<meta name="twitter:description" content="{{ metadata.description }}">
+<meta name="twitter:image" content="/images/window_painting.webp">
