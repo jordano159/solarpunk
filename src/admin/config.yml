@@ -10,18 +10,22 @@ backend:
 
 local_backend: true # Enable the CMS locally
 
-media_folder: src/images # location of where we want images uploaded via the CMS put
+media_folder: "src/images" # location of where we want images uploaded via the CMS put
+media_library:
+   name: uploads
 
 collections:
-  - name: blog # collection name
+  - name: posts # collection name
     label: מאמרים # label in the CMS
     folder: src/_posts/ # location of the files that make up the collection
     extension: .md # extension of those files
     format: frontmatter # format to use
     create: true # allow creation of new items in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{title}}" # the slug to use when creating new items
+    editor:
+      preview: false # According to the documentation, this won't work with our setup, but I didn't try
     fields: # Fields for the collection
-      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Layout, name: layout, widget: hidden, default: story }
       - { label: Title, name: title, widget: string }
       - { label: Publish Date, name: date, widget: datetime }
       - { label: Category, name: categories, widget: string}
