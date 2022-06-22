@@ -11,8 +11,6 @@ backend:
 local_backend: true # Enable the CMS locally
 
 media_folder: "src/images" # location of where we want images uploaded via the CMS put
-media_library:
-   name: uploads
 
 collections:
   - name: posts # collection name
