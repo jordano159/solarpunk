@@ -1,0 +1,30 @@
+backend:
+  name: git-gateway # required for using Github
+  branch: main # the default branch you want CMS changes merged to
+  commit_messages: # Optional: configure the commit messages Netlify CMS will use when publishing changes
+    create: "feat({{collection}}): :sparkles: Create {{slug}}"
+    update: "chore({{collection}}): :recycle: Update {{slug}}"
+    delete: "chore({{collection}}): :recycle: Delete {{slug}}"
+    uploadMedia: "feat(assets): :bento: Upload {{path}}"
+    deleteMedia: "chore(assets): :wastebasket: Delete {{path}}"
+
+local_backend: true # Enable the CMS locally
+
+media_folder: src/images # location of where we want images uploaded via the CMS put
+
+collections:
+  - name: blog # collection name
+    label: מאמרים # label in the CMS
+    folder: src/_posts/ # location of the files that make up the collection
+    extension: .md # extension of those files
+    format: frontmatter # format to use
+    create: true # allow creation of new items in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}" # the slug to use when creating new items
+    fields: # Fields for the collection
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Category, name: categories, widget: string}
+      - { label: Image, name: pic, widget: "image" }
+      - { label: Image Alt, name: alt, widget: string}
+      - { label: Body, name: body, widget: markdown }
