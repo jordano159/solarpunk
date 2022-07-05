@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: בלוג
 ---
-
+<h1 class="text-6xl lg:text-7xl font-bold primary-color mb-4">בלוג סולארפאנק ישראל</h1>
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
   <div class="max-w-2xl mx-auto lg:max-w-none">
     <div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:gap-y-6">

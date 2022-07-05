@@ -16,6 +16,7 @@ body {
   /* background-image: linear-gradient(to right top, #e1ff00, #c7f70c, #acee18, #92e521, #77db29, #5bd94a, #3bd763, #00d478, #00d69f, #00d6c0, #00d5d9, #00d2e9);  background-image: linear-gradient(to left bottom, #d3ea5b, #bce259, #a6db59, #8fd259, #78ca5a, #63c05e, #4db661, #37ac64, #1f9e68, #048f69, #008167, #007263); */
   /* color: var(--body-color); */
   color: #000000;
+  min-height: 100%;
 }
 
 .primary-color {
